@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/eiire/chessviz.svg?branch=master)](https://travis-ci.org/eiire/chessviz)
+[![Build Status](https://travis-ci.org/Linakatv/Chess.svg?branch=master)](https://travis-ci.org/Linakatv/Chess)
