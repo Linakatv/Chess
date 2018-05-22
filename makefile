@@ -36,7 +36,7 @@ build/ctest.o: test/ctest.c
 	gcc -Wall -c test/ctest.c -o build/ctest.o -Ithirdparty
 
 test: bin/test
-	bin/test
+	./bin/test
 
 
 
