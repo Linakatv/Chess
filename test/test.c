@@ -90,3 +90,34 @@ CTEST(numOfRemain, framework)
 
 	ASSERT_EQUAL(check, expected);
 }
+
+CTEST(checkMove, test_step_hourse2)
+{
+	// WHEN
+	Board *array_chess = (Board *)malloc(sizeof(Board)*8*8);
+	board_filling(array_chess);
+
+	// GIVEN
+	int check = check_move(array_chess, 2, 18);
+
+	// THEN
+	int expected = 1;
+
+	ASSERT_EQUAL(expected, check);
+}
+
+
+CTEST(numOfRemain, framework2)
+{
+	// WHEN
+	Board *array_chess = (Board *)malloc(sizeof(Board)*8*8);
+	board_filling(array_chess);
+
+	// GIVEN
+	int check = check_input('e', 5, 'e', 6, '-');
+
+	//THEN
+	int expected = 0;
+
+	ASSERT_EQUAL(check, expected);
+}
